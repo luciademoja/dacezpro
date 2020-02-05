@@ -1,45 +1,40 @@
 import React from 'react'
-import pic02 from '../assets/images/pic02.jpg'
+import assorbenti6 from '../assets/images/assorbenti/assorbenti6.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
 const One = props => (
   <section
-    id="one"
+    id="assorbenti"
     className="spotlight style1 bottom inactive"
-    style={{ backgroundImage: `url(${pic02})` }}
+    style={{ backgroundImage: `url(${assorbenti6})` }}
   >
-    <span className="image fit main">
-      <img src={pic02} alt="" />
-    </span>
     <Fade bottom big>
       <div className="content">
         <div className="container">
           <div className="row">
             <div className="col-4 col-12-medium">
               <header>
-                <h2>Odio faucibus ipsum integer consequat</h2>
-                <p>
-                  Nascetur eu nibh vestibulum amet gravida nascetur praesent
-                </p>
+                <h2>Assorbenti Ascellari Uomo/Donna (Unisex)</h2>
+                <ul className="actions">
+                  <li>
+                    <a href="/assorbenti-ascellari" className="button">
+                      Leggi di più
+                    </a>
+                  </li>
+                </ul>
               </header>
             </div>
             <div className="col-4 col-12-medium">
               <p>
-                Feugiat accumsan lorem eu ac lorem amet sed accumsan donec.
-                Blandit orci porttitor semper. Arcu phasellus tortor enim mi
-                nisi praesent dolor adipiscing. Integer mi sed nascetur cep
-                aliquet augue varius tempus lobortis porttitor accumsan
-                consequat adipiscing lorem dolor.
+                Concepiti per garantire a chi ha problemi di eccessiva sudorazione o ipersudorazione ascelle una
+                sensazione di benessere in qualsiasi momento della giornata.
               </p>
             </div>
             <div className="col-4 col-12-medium">
               <p>
-                Morbi enim nascetur et placerat lorem sed iaculis neque ante
-                adipiscing adipiscing metus massa. Blandit orci porttitor
-                semper. Arcu phasellus tortor enim mi mi nisi praesent
-                adipiscing. Integer mi sed nascetur cep aliquet augue varius
-                tempus. Feugiat lorem ipsum dolor nullam.
+                Grazie all'utilizzo di materiali italiani certificati, i nostri assorbenti non provocano alcun
+                fastidio o pizzicore sotto l'ascella o sulla pelle, dandoti così una sicurezza completa.
               </p>
             </div>
           </div>
@@ -47,7 +42,7 @@ const One = props => (
       </div>
     </Fade>
     <ScrollLink
-      to="two"
+      to="corredini"
       className="goto-next"
       activeClass="active"
       smooth={true}

@@ -18,7 +18,7 @@ const Banner = props => (
       </span>
     </div>
     <ScrollLink
-      to="one"
+      to="assorbenti"
       className="goto-next"
       activeClass="active"
       smooth={true}

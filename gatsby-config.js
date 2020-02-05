@@ -24,13 +24,8 @@ module.exports = {
         ],
       },
       {
-        name: 'Elements',
-        link: '/elements',
-      },
-      {
-        name: 'Sign Up',
-        link: '#',
-        cl: 'button primary',
+        name: 'Contattaci',
+        link: '/contacts',
       },
     ],
   },
@@ -45,13 +40,13 @@ module.exports = {
         background_color: '#663399',
         theme_color: '#663399',
         display: 'minimal-ui',
-        icon: 'src/assets/images/website-icon.png', // This path is relative to the root of the site.
+        icon: 'src/assets/images/logo.png', // This path is relative to the root of the site.
       },
     },
     {
       resolve: 'gatsby-source-filesystem',
       options: {
-        path: `${__dirname}/src/images/`,
+        path: `${__dirname}/src/assets/images/`,
         name: 'images',
       },
     },

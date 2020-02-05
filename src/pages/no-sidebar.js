@@ -22,9 +22,7 @@ const LeftSidebar = props => (
         </header>
 
         <section id="content">
-          <a href="#" className="image fit">
-            <img src={pic07} alt="" />
-          </a>
+          <img src={pic07} alt="" />
           <h3>Dolore Amet Consequat</h3>
           <p>
             Aliquam massa urna, imperdiet sit amet mi non, bibendum euismod est.

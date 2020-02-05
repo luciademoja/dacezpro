@@ -1,40 +1,44 @@
 import React from 'react'
-import pic03 from '../assets/images/pic03.jpg'
+import dolceSogno7 from '../assets/images/corredini/dolceSogno7.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
 const Two = props => (
   <section
-    id="two"
+    id="corredini"
     className="spotlight style2 right inactive"
-    style={{ backgroundImage: `url(${pic03})` }}
+    style={{ backgroundImage: `url(${dolceSogno7})` }}
   >
     <span className="image fit main">
-      <img src={pic03} alt="" />
+      <img src={dolceSogno7} alt="" />
     </span>
     <Fade right big>
       <div className="content">
         <header>
-          <h2>Interdum amet non magna accumsan</h2>
-          <p>Nunc commodo accumsan eget id nisi eu col volutpat magna</p>
+          <h2>Dolce Sogno</h2>
+          <p>NOVITÀ 2020!</p>
         </header>
         <p>
-          Feugiat accumsan lorem eu ac lorem amet ac arcu phasellus tortor enim
-          mi mi nisi praesent adipiscing. Integer mi sed nascetur cep aliquet
-          augue varius tempus lobortis porttitor lorem et accumsan consequat
-          adipiscing lorem.
+          Acquista un corredino Dolce Sogno DacezPRO® e ottieni un bavaglino in regalo! 🎁
         </p>
+        <p>
+          Il nostro disegno fatto a mano è stato ideato pensando a questa dolce attesa
+          rappresentata come una soffice nuvola che culla il vostro bambino in un dolce sogno abbracciato dal
+          sole. La superficie della scatola presenta una piacevole finitura soft touch, che dona un effetto
+          morbido e vellutato estremamente gradevole al tatto.
+        </p>
+        <p>Garanzia 'Soddisfatti o Rimborsati'!</p>
         <ul className="actions">
           <li>
-            <a href="/" className="button">
-              Learn More
+            <a href="/corredini" className="button">
+              Leggi di più
             </a>
           </li>
         </ul>
       </div>
     </Fade>
     <ScrollLink
-      to="three"
+      to="contatti"
       className="goto-next"
       activeClass="active"
       smooth={true}

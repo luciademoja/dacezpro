@@ -3,7 +3,7 @@ import Fade from 'react-reveal/Fade'
 
 const Four = props => (
   <Fade up>
-    <section id="four" className="wrapper style1 special fade-up">
+    <section id="contatti" className="wrapper style1 special fade-up">
       <div className="container">
         <header className="major">
           <h2>Accumsan sed tempus adipiscing blandit</h2>

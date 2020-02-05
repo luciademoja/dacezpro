@@ -17,13 +17,12 @@ class Home extends React.Component {
           title="DacezPRO®"
           meta={[
             { name: 'description', content: 'Dacezpro Landing' },
-            { name: 'keywords', content: 'dacezpro, assorbenti ascellari' },
+            { name: 'keywords', content: 'dacezpro, assorbenti ascellari, corredini neonato' },
           ]}
         ></Helmet>
         <Banner />
         <One />
         <Two />
-        <Three />
         <Four />
         <Five />
       </Layout>

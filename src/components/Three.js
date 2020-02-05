@@ -1,16 +1,16 @@
 import React from 'react'
-import pic04 from '../assets/images/pic04.jpg'
+import dolceSogno1 from '../assets/images/corredini/dolceSogno1.jpg'
 import { Link as ScrollLink } from 'react-scroll'
 import Fade from 'react-reveal/Fade'
 
 const Three = props => (
   <section
-    id="three"
+    id="corredini"
     className="spotlight style3 left inactive"
-    style={{ backgroundImage: `url(${pic04})` }}
+    style={{ backgroundImage: `url(${dolceSogno1})` }}
   >
     <span className="image fit main bottom">
-      <img src={pic04} alt="" />
+      <img src={dolceSogno1} alt="" />
     </span>
     <Fade left big>
       <div className="content">
@@ -34,7 +34,7 @@ const Three = props => (
       </div>
     </Fade>
     <ScrollLink
-      to="four"
+      to="contatti"
       className="goto-next"
       activeClass="active"
       smooth={true}

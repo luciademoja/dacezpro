@@ -1,8 +1,13 @@
 import React from 'react'
 import { Helmet } from 'react-helmet'
 import Layout from '../components/layout'
-import dolceSogno1 from '../assets/images/dolceSogno1.jpg'
-import dolceSogno2 from '../assets/images/dolceSogno2.jpeg'
+import dolceSogno1 from '../assets/images/corredini/dolceSogno1.jpg'
+import dolceSogno2 from '../assets/images/corredini/dolceSogno2.jpeg'
+import dolceSogno3 from '../assets/images/corredini/dolceSogno3.jpeg'
+import dolceSogno4 from '../assets/images/corredini/dolceSogno4.jpg'
+import dolceSogno5 from '../assets/images/corredini/dolceSogno5.jpg'
+import dolceSogno6 from '../assets/images/corredini/dolceSogno6.jpg'
+import dolceSogno7 from '../assets/images/corredini/dolceSogno7.jpg'
 
 const Corredini = props => (
   <Layout>
@@ -65,13 +70,25 @@ const Corredini = props => (
                     </li>
                   </ul>
                 </footer>
+                <a href="#" className="image fit">
+                  <img src={dolceSogno3} alt="" />
+                </a>
+                <a href="#" className="image fit">
+                  <img src={dolceSogno4} alt="" />
+                </a>
+                <a href="#" className="image fit">
+                  <img src={dolceSogno5} alt="" />
+                </a>
+                <a href="#" className="image fit">
+                  <img src={dolceSogno6} alt="" />
+                </a>
               </section>
             </section>
           </div>
           <div className="col-8 col-12-medium imp-medium">
             <section id="content">
               <a href="#" className="image fit">
-                <img src={dolceSogno1} alt="" />
+                <img src={dolceSogno7} alt="" />
               </a>
               <h3>✅ 3 MISURE PIU’ SPAZIO ✅</h3>
               <p>
@@ -86,6 +103,9 @@ const Corredini = props => (
                 In regalo per te, uno degli accessori indispensabili alla nascita e per i primi anni
                 di asilo, 100% in puro cotone, lavabile in lavatrice a 40°C , prodotto in Italia e certificato CE.
               </p>
+              <a href="#" className="image fit">
+                <img src={dolceSogno1} alt="" />
+              </a>
               <h3>♻️ SCATOLA REGALO RIUTILIZZABILE☀</h3>
               <p>
                 L’abbiamo creata con amore avendo la massima cura dei dettagli ed è

@@ -35,13 +35,7 @@ const Footer = props => (
       </li>
     </ul>
     <ul className="copyright">
-      <li>&copy; Untitled. All rights reserved.</li>
-      <li>
-        Design: <a href="http://html5up.net">HTML5 UP</a>
-      </li>
-      <li>
-        Demo Images: <a href="https://unsplash.com">Unsplash</a>
-      </li>
+      <li>&copy; DacezPRO. All rights reserved.</li>
     </ul>
   </footer>
 )

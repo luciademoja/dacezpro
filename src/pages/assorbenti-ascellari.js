@@ -2,8 +2,13 @@ import React from 'react'
 import Helmet from 'react-helmet'
 import Layout from '../components/layout'
 
-import assorbenti1 from '../assets/images/assorbenti1.jpg'
-import assorbenti2 from '../assets/images/assorbenti2.jpg'
+import assorbenti1 from '../assets/images/assorbenti/assorbenti1.jpg'
+import assorbenti4 from '../assets/images/assorbenti/assorbenti4.jpg'
+import assorbenti6 from '../assets/images/assorbenti/assorbenti6.jpg'
+import assorbenti3 from '../assets/images/assorbenti/assorbenti3.jpg'
+import assorbenti5 from '../assets/images/assorbenti/assorbenti5.jpg'
+import assorbenti7 from '../assets/images/assorbenti/assorbenti7.jpg'
+
 
 const AssorbentiAscellari = props => (
   <Layout>
@@ -42,6 +47,9 @@ const AssorbentiAscellari = props => (
                 tutto il giorno. Inoltre, grazie all'utilizzo di materiali italiani certificati, non avrai alcun
                 fastidio di pizzicore sotto ascella o sulla pelle, dandoti così una sicurezza completa.
               </p>
+              <a href="#" className="image fit">
+                <img src={assorbenti4} alt="" />
+              </a>
               <h3>✅ PRATICI ED INVISIBILI:</h3>
               <p>
                 Grazie alle dimensioni generose dei nostri salva ascelle assorbenti, di ben 16x9,7cm avrai una
@@ -71,6 +79,7 @@ const AssorbentiAscellari = props => (
                   <ul className="actions">
                     <li>
                       <a
+                        rel="noopener noreferrer"
                         target="_blank"
                         href="https://www.amazon.it/DacezPRO%C2%AE-Assorbenti-Ascellari-Iperidrosi-Ascellare/dp/B07XBVFDRQ/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=dacezpro&qid=1580909597&s=baby&sr=1-1-catcorr"
                         className="button">
@@ -79,12 +88,12 @@ const AssorbentiAscellari = props => (
                     </li>
                   </ul>
                 </footer>
+                <a href="#" className="image fit">
+                  <img src={assorbenti5} alt="" />
+                </a>
               </section>
               <hr />
               <section>
-                <a href="#" className="image fit">
-                  <img src={assorbenti2} alt="" />
-                </a>
                 <h3>✅ 100% MADE IN ITALY:</h3>
                 <p>
                   Hai problemi di sudorazione ascelle forte e non sai come risolvere questa
@@ -98,6 +107,7 @@ const AssorbentiAscellari = props => (
                   <ul className="actions">
                     <li>
                       <a
+                        rel="noopener noreferrer"
                         target="_blank"
                         href="https://www.amazon.it/DacezPRO%C2%AE-Assorbenti-Ascellari-Iperidrosi-Ascellare/dp/B07XBVFDRQ/ref=sr_1_1?__mk_it_IT=%C3%85M%C3%85%C5%BD%C3%95%C3%91&keywords=dacezpro&qid=1580909597&s=baby&sr=1-1-catcorr"
                         className="button">
@@ -106,6 +116,15 @@ const AssorbentiAscellari = props => (
                     </li>
                   </ul>
                 </footer>
+                <a href="#" className="image fit">
+                  <img src={assorbenti6} alt="" />
+                </a>
+                <a href="#" className="image fit">
+                  <img src={assorbenti3} alt="" />
+                </a>
+                <a href="#" className="image fit">
+                  <img src={assorbenti7} alt="" />
+                </a>
               </section>
             </section>
           </div>
