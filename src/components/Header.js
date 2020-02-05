@@ -145,7 +145,7 @@ class Header extends React.Component {
                           onMouseEnter={this.enterMenu}
                           onMouseLeave={this.leaveMenu}
                         >
-                          {link.items.map(sublink =>
+                          {link.items && link.items.map(sublink =>
                             sublink.items ? (
                               <React.Fragment key={sublink.name}>
                                 <li

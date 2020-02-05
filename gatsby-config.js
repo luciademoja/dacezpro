@@ -1,51 +1,25 @@
 module.exports = {
   //pathPrefix: `/mygatsby`,
   siteMetadata: {
-    title: 'Landed',
-    author: 'vasrush',
-    description: 'A Gatsby.js V2 Starter based on Landed by HTML5 UP',
+    title: 'DacezPRO®',
+    author: 'luciademoja',
+    description: 'Based on Landed by HTML5 UP',
     menuLinks: [
       {
         name: 'Home',
         link: '/',
       },
       {
-        name: 'Layouts',
+        name: 'Prodotti',
         link: '#',
         items: [
           {
-            name: 'Left Sidebar',
-            link: '/left-sidebar',
+            name: 'Assorbenti ascellari',
+            link: '/assorbenti-ascellari',
           },
           {
-            name: 'Right Sidebar',
-            link: '/right-sidebar',
-          },
-          {
-            name: 'No Sidebar',
-            link: '/no-sidebar',
-          },
-          {
-            name: 'SubMenu',
-            link: '#',
-            items: [
-              {
-                name: 'Option 1',
-                link: '#',
-              },
-              {
-                name: 'Option 2',
-                link: '#',
-              },
-              {
-                name: 'Option 3',
-                link: '#',
-              },
-              {
-                name: 'Option 4',
-                link: '#',
-              },
-            ],
+            name: 'Corredini',
+            link: '/corredini',
           },
         ],
       },
