@@ -4,10 +4,10 @@ import Layout from '../components/layout'
 import dolceSogno1 from '../assets/images/corredini/dolceSogno1.jpg'
 import dolceSogno2 from '../assets/images/corredini/dolceSogno2.jpeg'
 import dolceSogno3 from '../assets/images/corredini/dolceSogno3.jpeg'
-import dolceSogno4 from '../assets/images/corredini/dolceSogno4.jpg'
 import dolceSogno5 from '../assets/images/corredini/dolceSogno5.jpg'
 import dolceSogno6 from '../assets/images/corredini/dolceSogno6.jpg'
 import dolceSogno7 from '../assets/images/corredini/dolceSogno7.jpg'
+import dolceSogno8 from '../assets/images/corredini/dolceSogno8.jpg'
 
 const Corredini = props => (
   <Layout>
@@ -51,7 +51,11 @@ const Corredini = props => (
                 <a href="#" className="image fit">
                   <img src={dolceSogno2} alt="" />
                 </a>
-                <h3>19,90 € Spedizione GRATUITA sul tuo primo ordine idoneo.</h3>
+                <h3>
+                  <span style={{ color: 'red', textDecoration: 'line-through', fontSize: '22px' }}>19,90 € </span>
+                  <span  style={{ color: 'green', fontSize: '28px' }}> 13,90 €</span>
+                  Spedizione GRATUITA sul tuo primo ordine idoneo.
+                </h3>
                 <p>
                   ✅ GARANZIA ✅ Certi della qualità del nostro prodotto, offriamo la garanzia 'Soddisfatti o
                   Rimborsati': resi veloci e rimborsi gratuiti, entro 30 giorni dalla data d'acquisto.
@@ -74,7 +78,7 @@ const Corredini = props => (
                   <img src={dolceSogno3} alt="" />
                 </a>
                 <a href="#" className="image fit">
-                  <img src={dolceSogno4} alt="" />
+                  <img src={dolceSogno8} alt="" />
                 </a>
                 <a href="#" className="image fit">
                   <img src={dolceSogno5} alt="" />

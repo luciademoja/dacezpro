@@ -20,7 +20,7 @@ const AssorbentiAscellari = props => (
     <div id="main" className="wrapper style1">
       <div className="container">
         <header className="major">
-          <h2>Assorbenti Ascellari Uomo/Donna (Unisex)</h2>
+          <h2>Assorbenti Ascellari Uomo/Donna (Unisex) Bianchi</h2>
           <p>
             100% Made In Italy (40 pezzi)
           </p>

@@ -14,11 +14,15 @@ module.exports = {
         link: '#',
         items: [
           {
-            name: 'Assorbenti ascellari',
+            name: 'Assorbenti ascellari bianchi',
             link: '/assorbenti-ascellari',
           },
           {
-            name: 'Corredini',
+            name: 'Assorbenti ascellari neri',
+            link: '/assorbenti-ascellari-neri',
+          },
+          {
+            name: 'Bustine corredino',
             link: '/corredini',
           },
         ],
