@@ -47,7 +47,7 @@ const AssorbentiAscellari = props => (
                 fastidio di pizzicore sotto ascella o sulla pelle, dandoti così una sicurezza completa.
               </p>
               <a href="#" className="image fit">
-                <img src={assorbenti7} alt="" />
+                <img src={assorbentiNeri1} alt="" />
               </a>
               <h3>✅ PRATICI ED INVISIBILI:</h3>
               <p>
@@ -68,7 +68,7 @@ const AssorbentiAscellari = props => (
           <div className="col-4 col-12-medium">
             <section id="sidebar">
               <section>
-                <h3>15,99 € Spedizione GRATUITA sul tuo primo ordine idoneo.</h3>
+                <h3>16,99 € Spedizione GRATUITA sul tuo primo ordine idoneo.</h3>
                 <p>
                   ✅ GARANZIA COMPLETA: Certi della qualità del nostro prodotto, offriamo la garanzia 'Soddisfatti o
                   Rimborsati': resi veloci e rimborsi gratuiti, entro 30 giorni dalla data d'acquisto.
@@ -119,7 +119,7 @@ const AssorbentiAscellari = props => (
                   <img src={assorbentiNeri4} alt="" />
                 </a>
                 <a href="#" className="image fit">
-                  <img src={assorbentiNeri1} alt="" />
+                  <img src={assorbenti7} alt="" />
                 </a>
               </section>
             </section>
